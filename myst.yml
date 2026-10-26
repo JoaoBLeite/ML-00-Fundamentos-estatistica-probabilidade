@@ -1,0 +1,56 @@
+# Configuração do livro (Jupyter Book 2 / MyST)
+# Para gerar localmente: jupyter-book start   (ou jupyter-book build --html)
+version: 1
+project:
+  id: ml-00-fundamentos-estatistica-probabilidade
+  title: Fundamentos de Estatística e Probabilidade para Machine Learning
+  description: Uma introdução prática e didática à estatística e à probabilidade, com Python, como nivelamento para os livros de Machine Learning.
+  authors:
+    - name:
+        given: João Pedro Barbosa
+        family: Leite
+  license: CC-BY-NC-SA-4.0
+  github: https://github.com/JoaoBLeite/ML-00-Fundamentos-estatistica-probabilidade
+  keywords:
+    - estatística
+    - probabilidade
+    - machine learning
+    - python
+  # Botão para abrir os notebooks no Binder e executá-los no navegador
+  jupyter:
+    binder:
+      repo: JoaoBLeite/ML-00-Fundamentos-estatistica-probabilidade
+  toc:
+    - file: README.md
+    - title: Parte I · Estatística descritiva
+      children:
+        - file: 01_dados_e_tipos_de_variaveis.ipynb
+        - file: 02_medidas_de_tendencia_e_dispersao.ipynb
+        - file: 03_visualizando_distribuicoes.ipynb
+        - file: 04_relacoes_entre_variaveis.ipynb
+    - title: Parte II · Probabilidade
+      children:
+        - file: 05_fundamentos_de_probabilidade.ipynb
+        - file: 06_probabilidade_condicional_e_bayes.ipynb
+        - file: 07_variaveis_aleatorias_discretas.ipynb
+        - file: 08_variaveis_aleatorias_continuas.ipynb
+        - file: 09_distribuicoes_conjuntas.ipynb
+    - title: Parte III · Inferência estatística
+      children:
+        - file: 10_lei_dos_grandes_numeros_e_tcl.ipynb
+        - file: 11_estimacao_e_intervalos_de_confianca.ipynb
+        - file: 12_testes_de_hipotese.ipynb
+        - file: 13_maxima_verossimilhanca.ipynb
+    - title: Parte IV · Ponte para o ML
+      children:
+        - file: 14_regressao_linear_estatistica.ipynb
+        - file: 15_entropia_e_informacao.ipynb
+        - file: 16_inferencia_bayesiana.ipynb
+    - title: Extras
+      children:
+        - file: 17_amostragem_e_vies.ipynb
+        - file: 18_simulacao_de_monte_carlo.ipynb
+site:
+  template: book-theme
+  options:
+    logo_text: ML-00 · Estatística e Probabilidade
