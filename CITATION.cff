@@ -1,0 +1,26 @@
+# Metadados de citação: usados pelo botão "Cite this repository" do GitHub
+cff-version: 1.2.0
+message: Se usar este material, cite-o com os dados abaixo.
+title: "Fundamentos de Estatística e Probabilidade para Machine Learning"
+abstract: >-
+  Livro digital interativo, em notebooks Jupyter, que faz o nivelamento de
+  estatística e probabilidade para Machine Learning com Python: estatística
+  descritiva, visualização de distribuições, correlação, probabilidade
+  condicional e Teorema de Bayes, variáveis aleatórias discretas e contínuas,
+  distribuições conjuntas, Lei dos Grandes Números e Teorema Central do
+  Limite, intervalos de confiança e bootstrap, testes de hipótese, máxima
+  verossimilhança, regressão linear estatística, entropia e informação,
+  inferência bayesiana, amostragem e viés e simulação de Monte Carlo.
+authors:
+  - given-names: João Pedro Barbosa
+    family-names: Leite
+version: 1.0.0
+date-released: 2026-10-26
+license: CC-BY-NC-SA-4.0
+repository-code: https://github.com/JoaoBLeite/ML-00-Fundamentos-estatistica-probabilidade
+url: https://joaobleite.github.io/ML-00-Fundamentos-estatistica-probabilidade/
+keywords:
+  - estatística
+  - probabilidade
+  - machine learning
+  - python
