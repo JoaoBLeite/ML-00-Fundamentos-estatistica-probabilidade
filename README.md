@@ -1,5 +1,6 @@
 # ML-00-Fundamentos-estatistica-probabilidade
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23669967.svg)](https://doi.org/10.5281/zenodo.23669967)
 [![Licença: CC BY-NC-SA 4.0](https://img.shields.io/badge/licen%C3%A7a-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
 
 Uma **introdução prática e didática à estatística e à probabilidade para Machine Learning**, usando Python.
@@ -204,9 +205,9 @@ ML-00-Fundamentos-estatistica-probabilidade/
 
 Se usar este material, cite-o assim (ABNT):
 
-> LEITE, João Pedro Barbosa. **Fundamentos de Estatística e Probabilidade para Machine Learning**. 2026. Disponível em: https://github.com/JoaoBLeite/ML-00-Fundamentos-estatistica-probabilidade.
+> LEITE, João Pedro Barbosa. **Fundamentos de Estatística e Probabilidade para Machine Learning**. Zenodo, 2026. DOI: [10.5281/zenodo.23669967](https://doi.org/10.5281/zenodo.23669967).
 
-No GitHub, o botão **Cite this repository** gera a citação em outros formatos (APA, BibTeX).
+Esse DOI sempre aponta para a versão mais recente. No GitHub, o botão **Cite this repository** gera a citação em outros formatos (APA, BibTeX).
 
 ## 📄 Licença
 
